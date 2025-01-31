@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Cari Covid</string>
     <string name="add_data">Tambah Data</string>
+    <string name="web_client_id">841355623909-lkfek17o5k7htp7p72sln5ruj25966cf.apps.googleusercontent.com</string>
+    <string name="login_page_name">Login Cari Covid</string>
 </resources>
