@@ -4,3 +4,10 @@ plugins {
     alias(libs.plugins.kotlin.android) apply false
     id("org.jetbrains.kotlin.jvm") version "1.8.22" apply false
 }
+
+buildscript {
+    dependencies {
+        // ...
+        classpath("com.google.android.libraries.mapsplatform.secrets-gradle-plugin:secrets-gradle-plugin:2.0.1")
+    }
+}
