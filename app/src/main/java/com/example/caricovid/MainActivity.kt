@@ -48,6 +48,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.map_fragment
             ) as? SupportMapFragment
             mapFragment?.getMapAsync { map ->
+                map.clear()
                 if (dataCovidList.isNotEmpty()) {
                     addMarkers(map)
                 }
